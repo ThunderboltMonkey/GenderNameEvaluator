@@ -4,3 +4,9 @@ c:\users\monkey\documents\visual studio 2013\Projects\Nombres\Nombres\bin\Debug\
 c:\users\monkey\documents\visual studio 2013\Projects\Nombres\Nombres\obj\Debug\Nombres.csprojResolveAssemblyReference.cache
 c:\users\monkey\documents\visual studio 2013\Projects\Nombres\Nombres\obj\Debug\Nombres.exe
 c:\users\monkey\documents\visual studio 2013\Projects\Nombres\Nombres\obj\Debug\Nombres.pdb
+C:\Users\Monkey\Desktop\Nombres\Nombres\bin\Debug\Nombres.exe.config
+C:\Users\Monkey\Desktop\Nombres\Nombres\obj\Debug\Nombres.exe
+C:\Users\Monkey\Desktop\Nombres\Nombres\obj\Debug\Nombres.pdb
+C:\Users\Monkey\Desktop\Nombres\Nombres\bin\Debug\Nombres.exe
+C:\Users\Monkey\Desktop\Nombres\Nombres\bin\Debug\Nombres.pdb
+C:\Users\Monkey\Desktop\Nombres\Nombres\obj\Debug\Nombres.csprojResolveAssemblyReference.cache

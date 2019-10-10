@@ -32,7 +32,7 @@ namespace Nombres
 
             string cadena = null;
             string evalua = null;
-            Regex noPermitidos = new Regex(@"[0-9\\\-\.\,\;\:\{\[\´\¨\+\*\}\]\¿\¡\'\?\=\)\(\/\&\%\$\#\|\!\°\¬\~]");
+            Regex noPermitidos = new Regex(@"[0-9\\\-\.\,\;\:\{\[\´\¨\+\*\}\]\¿\¡\'\?\=\)\(\/\&\%\$\#\|\!\°\¬\~\^\\_\>\<\`\@\|]");
             SoundPlayer isauro = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\isauro.wav");
             SoundPlayer emanuel = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\emanuel.wav");
             SoundPlayer fabian = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\fabian.wav");
@@ -61,6 +61,11 @@ namespace Nombres
                         cadena = cadena.Replace("í", "i");
                         cadena = cadena.Replace("ó", "o");
                         cadena = cadena.Replace("ú", "u");
+                        cadena = cadena.Replace("à", "a");
+                        cadena = cadena.Replace("è", "e");
+                        cadena = cadena.Replace("ì", "i");
+                        cadena = cadena.Replace("ò", "o");
+                        cadena = cadena.Replace("ù", "u");
                         
                         if (cadena == "Salir")
                         {
@@ -139,6 +144,14 @@ namespace Nombres
                         {
                             Console.WriteLine("Es mujer");
                         }
+                        else if (cadena == "ana")
+                        {
+                            Console.WriteLine("Es mujer");
+                        }
+                        else if (cadena == "ema")
+                        {
+                            Console.WriteLine("Es mujer");
+                        }
                         else if (cadena == "ian")
                         {
                             Console.WriteLine("Es hombre");
@@ -152,6 +165,10 @@ namespace Nombres
                             Console.WriteLine("Es hombre");
                         }
                         else if (cadena == "rey")
+                        {
+                            Console.WriteLine("Es hombre");
+                        }
+                        else if (cadena == "leo")
                         {
                             Console.WriteLine("Es hombre");
                         }
@@ -261,6 +278,12 @@ namespace Nombres
                                     Console.WriteLine("Es hombre");
                                     break;
                                 case "lvin":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "ordi":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "ordy":
                                     Console.WriteLine("Es hombre");
                                     break;
                                 case "ecas":
@@ -399,6 +422,9 @@ namespace Nombres
                                     Console.WriteLine("Es hombre");
                                     break;
                                 case "erio":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "ving":
                                     Console.WriteLine("Es hombre");
                                     break;
                                 case "orge":
@@ -994,6 +1020,78 @@ namespace Nombres
                                     Console.WriteLine("Es hombre");
                                     break;
                                 case "zuma":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "asmo":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "eban":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "dair":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "arlo":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "ingo":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "shue":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "onel":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "saac":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "nito":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "meon":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "zaid":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "siel":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "polo":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "ayam":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "abel":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "avel":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "cain":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "imir":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "omon":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "lmer":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "lver":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "eber":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "gelo":
+                                    Console.WriteLine("Es hombre");
+                                    break;
+                                case "joan":
                                     Console.WriteLine("Es hombre");
                                     break;
                                 default:
