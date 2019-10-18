@@ -10,3 +10,9 @@ C:\Users\Monkey\Desktop\Nombres\Nombres\obj\Debug\Nombres.pdb
 C:\Users\Monkey\Desktop\Nombres\Nombres\bin\Debug\Nombres.exe
 C:\Users\Monkey\Desktop\Nombres\Nombres\bin\Debug\Nombres.pdb
 C:\Users\Monkey\Desktop\Nombres\Nombres\obj\Debug\Nombres.csprojResolveAssemblyReference.cache
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\bin\Debug\Nombres.exe.config
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\obj\Debug\Nombres.exe
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\obj\Debug\Nombres.pdb
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\bin\Debug\Nombres.exe
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\bin\Debug\Nombres.pdb
+C:\Users\Monkey\Desktop\Lenguajes y Autómatas II\Nombres\Nombres\obj\Debug\Nombres.csprojResolveAssemblyReference.cache

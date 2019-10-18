@@ -12,7 +12,6 @@ namespace Nombres
     {
         static void Main(string[] args)
         {
-            // Formateo visual de la consola
             Console.Title = "Evaluación de Nombres";
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("-----------------------INTRODUCCION-----------------------");
@@ -29,19 +28,10 @@ namespace Nombres
             Console.WriteLine("");
             Console.WriteLine("");
 
-
             string cadena = null;
             string evalua = null;
             Regex noPermitidos = new Regex(@"[0-9\\\-\.\,\;\:\{\[\´\¨\+\*\}\]\¿\¡\'\?\=\)\(\/\&\%\$\#\|\!\°\¬\~\^\\_\>\<\`\@\|]");
-            SoundPlayer isauro = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\isauro.wav");
-            SoundPlayer emanuel = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\emanuel.wav");
-            SoundPlayer fabian = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\fabian.wav");
-            SoundPlayer raul = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\raul.wav");
-            SoundPlayer ivan = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\pluma.wav");
-            SoundPlayer mario = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\mario.wav");
-            SoundPlayer garibo = new SoundPlayer(@"C:\Users\Monkey\Documents\Visual Studio 2013\Projects\Nombres\Nombres\bin\Debug\garibo.wav");
             string otra = null;
-
 
             Console.WriteLine("¿Desea ingresar un nombre? 0 = Si, 1 = No");
             otra = Console.ReadLine();
@@ -104,7 +94,6 @@ namespace Nombres
                         else if (cadena == "ivan")
                         {
                             Console.WriteLine("Es hombre");
-                            //ivan.Play();
                         }
                         else if (cadena == "")
                         {
@@ -113,32 +102,22 @@ namespace Nombres
                         else if (cadena == "mario")
                         {
                             Console.WriteLine("Es hombre");
-                            //mario.Play();
                         }
                         else if (cadena == "fabian")
                         {
                             Console.WriteLine("Es hombre");
-                            //fabian.Play();
-                        }
-                        else if (cadena == "garibo")
-                        {
-                            Console.WriteLine("Es hombre");
-                            //garibo.Play();
                         }
                         else if (cadena == "emanuel")
                         {
                             Console.WriteLine("Es hombre");
-                            //emanuel.Play();
                         }
                         else if (cadena == "raul")
                         {
                             Console.WriteLine("Es hombre");
-                            //raul.Play();
                         }
                         else if (cadena == "isauro")
                         {
                             Console.WriteLine("Es hombre");
-                            //isauro.Play();
                         }
                         else if (cadena == "eva")
                         {
@@ -179,7 +158,6 @@ namespace Nombres
                         else
                         {
                             evalua = cadena.Substring(cadena.Length - 4, 4);
-
                             if (evalua.Length == 4)
                             {
                             switch (evalua)
@@ -717,7 +695,6 @@ namespace Nombres
                                     break;
                                 case "auro":
                                     Console.WriteLine("Es hombre");
-                                    isauro.Play();
                                     break;
                                 case "alan":
                                     Console.WriteLine("Es hombre");
